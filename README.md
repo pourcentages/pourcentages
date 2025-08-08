@@ -1,16 +1,20 @@
-## Hi there 👋
+```javascript
+class pourcentages {
+  constructor() {
+    this.name = 'c2fou_.';
+    this.alias = 'pourcentages';
+    this.location = 'France';
+  }
 
-<!--
-**pourcentages/pourcentages** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  getSkills() {
+    return ['Python', 'JavaScript', 'Git', 'HTML', 'CSS'];
+  }
 
-Here are some ideas to get you started:
+  getSocials() {
+    return {
+      discord: 'c2fou_.'
+    };
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export default pourcentages;
